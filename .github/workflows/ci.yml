@@ -27,8 +27,8 @@ jobs:
         run: yarn
 
       # Change this to customize your build command.
-      - name: Build
-        run: yarn build
+      # - name: Build
+      #   run: yarn build
 
       # Change this to customize your test command.
       - name: Test
@@ -44,8 +44,8 @@ jobs:
 
       - name: Release snapshot
         run: |
-          npx changeset version --snapshot
-          npx changeset publish --tag canary
+          yarn change:snapshot
+          yarn changeset publish --tag canary
         env:
           GITHUB_TOKEN: ${{ secrets.BTRB_GITHUB_TOKEN }}
 

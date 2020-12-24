@@ -27,5 +27,8 @@
     "src"
   ],
   "license": "MIT",
-  "sideEffects": false
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  }
 }

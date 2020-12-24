@@ -1,4 +1,9 @@
 {
   "prettier.packageManager": "yarn",
-  "npm.packageManager": "yarn"
+  "npm.packageManager": "yarn",
+  "search.exclude": {
+    "**/.yarn": true,
+    "**/.pnp.*": true
+  },
+  "prettier.prettierPath": ".yarn/sdks/prettier/index.js"
 }
