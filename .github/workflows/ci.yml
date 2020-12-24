@@ -44,8 +44,8 @@ jobs:
 
       - name: Release snapshot
         run: |
-          npx changeset version --snapshot
-          npx changeset publish --tag canary
+          yarn change:snapshot
+          yarn changeset publish --tag canary
         env:
           GITHUB_TOKEN: ${{ secrets.BTRB_GITHUB_TOKEN }}
 
