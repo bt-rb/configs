@@ -1,0 +1,36 @@
+{
+  "name": "configs",
+  "version": "0.0.0",
+  "author": {
+    "email": "support@andrewm.codes",
+    "name": "Andrew Mason",
+    "url": "https://andrewm.codes"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.12.0",
+    "fs-extra": "^9.0.1",
+    "glob": "^7.1.6",
+    "jest": "^26.6.3",
+    "plop": "^2.7.4",
+    "prettier": "^2.2.1"
+  },
+  "scripts": {
+    "change": "yarn change:run && yarn change:version",
+    "change:run": "changeset",
+    "change:version": "changeset version",
+    "check:prettier": "prettier --check \"./**/*.{ts,js,mjs,cjs}\"",
+    "format": "yarn format:prettier && yarn format:package",
+    "format:package": "finepack",
+    "format:prettier": "prettier --write \"./**/*.{ts,js,mjs,cjs}\"",
+    "generate": "plop",
+    "generate:package": "plop package && yarn plop docs",
+    "prerelease": "yarn format && yarn test",
+    "release": "changeset publish",
+    "test": "jest --passWithNoTests"
+  },
+  "private": true,
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ]
+}

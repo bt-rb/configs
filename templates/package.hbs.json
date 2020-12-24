@@ -1,0 +1,29 @@
+{
+  "name": "@btrb/{{name}}",
+  "description": "{{description}}",
+  "homepage": "https://github.com/bt-rb/configs/blob/main/packages/{{name}}/README.md",
+  "version": "0.0.0",
+  "main": "src/index.js",
+  "author": {
+    "email": "support@andrewm.codes",
+    "name": "Andrew Mason",
+    "url": "https://andrewm.codes"
+  },
+  "repository": {
+    "directory": "packages/{{name}}",
+    "type": "git",
+    "url": "git+https://github.com/bt-rb/configs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bt-rb/configs/issues"
+  },
+  "keywords": [
+    "andrewmcodes",
+    "bridgetown",
+    "configs"
+  ],
+  "files": [
+    "src"
+  ],
+  "license": "MIT"
+}

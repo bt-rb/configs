@@ -1,0 +1,31 @@
+{
+  "name": "@btrb/prettier-config",
+  "description": "Shared prettier config for building Bridgetown websites and plugins",
+  "homepage": "https://github.com/bt-rb/configs/blob/main/packages/prettier-config/README.md",
+  "version": "0.0.0",
+  "main": "src/index.js",
+  "author": {
+    "email": "support@andrewm.codes",
+    "name": "Andrew Mason",
+    "url": "https://andrewm.codes"
+  },
+  "repository": {
+    "directory": "packages/prettier-config",
+    "type": "git",
+    "url": "git+https://github.com/bt-rb/configs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bt-rb/configs/issues"
+  },
+  "keywords": [
+    "andrewmcodes",
+    "bridgetown",
+    "configs",
+    "prettier"
+  ],
+  "files": [
+    "src"
+  ],
+  "license": "MIT",
+  "sideEffects": false
+}
