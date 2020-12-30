@@ -1,0 +1,35 @@
+{
+  "name": "@btrb/babel-preset",
+  "description": "Shared Babel preset for Bridgetown sites.",
+  "homepage": "https://github.com/bt-rb/configs/blob/main/packages/babel-preset/README.md",
+  "version": "0.0.0",
+  "main": "src/index.js",
+  "author": {
+    "email": "support@andrewm.codes",
+    "name": "Andrew Mason",
+    "url": "https://andrewm.codes"
+  },
+  "repository": {
+    "directory": "packages/babel-preset",
+    "type": "git",
+    "url": "git+https://github.com/bt-rb/configs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bt-rb/configs/issues"
+  },
+  "keywords": [
+    "andrewmcodes",
+    "bridgetown",
+    "configs"
+  ],
+  "files": [
+    "src"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.10.0",
+    "@babel/plugin-proposal-decorators": "^7.10.0",
+    "@babel/plugin-transform-runtime": "^7.10.0",
+    "@babel/preset-env": "^7.10.0"
+  }
+}
