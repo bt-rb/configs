@@ -15,4 +15,5 @@ This repo is managed as a monorepo that is composed of many npm packages, where 
 
 | Name | NPM | Size |
 | ---- | --- | ---- |
+| [babel-preset](packages/babel-preset) | [![npm version](https://badge.fury.io/js/%40btrb%2Fbabel-preset.svg)](https://badge.fury.io/js/%40btrb%2Fbabel-preset) | [![npm bundle size (minified + gzip)](https://img.shields.io/bundlephobia/minzip/@btrb/babel-preset.svg)](https://img.shields.io/bundlephobia/minzip/@btrb/babel-preset.svg) |
 | [prettier-config](packages/prettier-config) | [![npm version](https://badge.fury.io/js/%40btrb%2Fprettier-config.svg)](https://badge.fury.io/js/%40btrb%2Fprettier-config) | [![npm bundle size (minified + gzip)](https://img.shields.io/bundlephobia/minzip/@btrb/prettier-config.svg)](https://img.shields.io/bundlephobia/minzip/@btrb/prettier-config.svg) |
