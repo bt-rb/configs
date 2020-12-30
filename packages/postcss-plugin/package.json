@@ -1,0 +1,43 @@
+{
+  "name": "@btrb/postcss-plugin",
+  "description": "Shared PostCSS plugin for Bridgetown sites",
+  "homepage": "https://github.com/bt-rb/configs/blob/main/packages/postcss-plugin/README.md",
+  "version": "0.0.1",
+  "main": "src/index.js",
+  "author": {
+    "email": "support@andrewm.codes",
+    "name": "Andrew Mason",
+    "url": "https://andrewm.codes"
+  },
+  "repository": {
+    "directory": "packages/postcss-plugin",
+    "type": "git",
+    "url": "git+https://github.com/bt-rb/configs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bt-rb/configs/issues"
+  },
+  "keywords": [
+    "andrewmcodes",
+    "bridgetown",
+    "configs"
+  ],
+  "files": [
+    "src"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.1.0",
+    "cssnano": "^4.1.10",
+    "postcss": "^8.2.2",
+    "postcss-calc": "^7.0.5",
+    "postcss-discard-comments": "^4.0.2",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-import": "^14.0.0",
+    "postcss-selector-matches": "^4.0.0",
+    "postcss-will-change": "^4.0.1"
+  }
+}

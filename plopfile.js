@@ -36,11 +36,6 @@ module.exports = function (plop) {
       },
       {
         type: "add",
-        path: "packages/{{kebabCase name}}/CHANGELOG.md",
-        templateFile: "templates/CHANGELOG.hbs.md",
-      },
-      {
-        type: "add",
         path: "packages/{{kebabCase name}}/src/index.js",
         templateFile: "templates/index.hbs",
       },
