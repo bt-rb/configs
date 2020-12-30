@@ -17,12 +17,36 @@ yarn add -D @btrb/babel-preset
 
 ## Usage
 
-To enable the preset, add a `babel` property in your `package.json` and reference this shared config as follows:
+### `package.json`
 
 ```json
 {
   "babel": {
     "presets": ["@btrb/babel-preset"]
   }
+}
+```
+
+### Webpack
+
+```js
+{
+  test: /\.(js|jsx)/,
+  use: {
+    loader: "babel-loader",
+    options: {
+      presets: ["@btrb/babel-preset"]
+    },
+  },
+}
+```
+
+### Babel Config
+
+```json
+{
+  "presets": [
+    "@btrb/babel-preset"
+  ]
 }
 ```
